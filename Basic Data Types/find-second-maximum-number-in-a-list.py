@@ -1,7 +1,7 @@
 # Finding the runner up
 n = int(input())
 
-scores = list(map(int, input().strip().split()))[:n]
+scores = list(map(int, input().strip().split()))
 
 first = max(scores) 
 
