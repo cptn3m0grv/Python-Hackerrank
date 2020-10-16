@@ -1,0 +1,5 @@
+m = int(input())
+a = set(list(map(int, input().split())))
+n = int(input())
+b = set(list(map(int, input().split())))
+print(len(a.difference(b)))
